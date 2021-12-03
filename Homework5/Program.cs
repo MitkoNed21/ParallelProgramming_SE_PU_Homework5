@@ -14,7 +14,7 @@ namespace Homework5
 
         static void Main(string[] args)
         {
-            var secretBase = new Building("Super Secret Base!", numberOfFloors: 4);
+            var secretBase = new Building("Area 51", numberOfFloors: 4);
 
             secretBase.AddFloors(new[] {
                 new Floor(0, name: "G", securityLevelRequirement: SecurityLevel.Confidential, building: secretBase),
